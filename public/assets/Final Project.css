@@ -1,0 +1,16 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+
+#education {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.progress {
+  height: 25px;
+}
