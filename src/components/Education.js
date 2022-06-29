@@ -1,3 +1,6 @@
+import profilePict from '../components/assets/darell.webp'
+import schoolImg from '../components/assets/vladislav-vasilev-9qbPV3dvna0-unsplash.jpg'
+
 const Education = () =>
 {
     return (
@@ -12,14 +15,14 @@ const Education = () =>
             {/* <!-- Education and Skills 1 --> */}
             <div class="row justify-content-center">
             <div class="col-3 mb-3 text-center">
-                <img src="darell.webp" width="200px" height="200px" class="rounded-circle img-thumbnail" alt="..." />
+                <img src={profilePict} width="200px" height="200px" class="rounded-circle img-thumbnail" alt="..." />
             </div>
             </div>
 
             <div class="row justify-content-evenly">
             <div class="col-md-3 mb-3">
                 <div class="card" style={{width: "288px;"}}>
-                <img src="vladislav-vasilev-9qbPV3dvna0-unsplash.jpg" class="card-img-top" alt="..." />
+                <img src={schoolImg} class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Elementry</h5>
                     <p class="card-text">I was Studying at Klabat University - Elementary.</p>
@@ -28,7 +31,7 @@ const Education = () =>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card" style={{width: "288px;"}}>
-                <img src="vladislav-vasilev-9qbPV3dvna0-unsplash.jpg" class="card-img-top" alt="..." />
+                <img src={schoolImg} class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Midle School</h5>
                     <p class="card-text">I was studying at Klabat University - Middle School.</p>
@@ -37,7 +40,7 @@ const Education = () =>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card" style={{width: "288px;"}}>
-                <img src="vladislav-vasilev-9qbPV3dvna0-unsplash.jpg" class="card-img-top" alt="..." />
+                <img src={schoolImg} class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">High School</h5>
                     <p class="card-text">I was Studying at Klabat University - High School.</p>

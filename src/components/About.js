@@ -1,3 +1,5 @@
+import profilePict from '../components/assets/darell.webp'
+
 const About = () =>
 {
     return (
@@ -10,7 +12,7 @@ const About = () =>
                     </div>
                     <div class="row shadow-lg justify-content-start">
                         <div class="col-6 col-sm-2">
-                            {/* <img src="darell.webp" width="200px" height="200px" class="rounded-circle img-thumbnail float-start"></img> */}
+                            <img src={profilePict} alt="Profile pict" width="200px" height="200px" class="rounded-circle img-thumbnail float-start"></img>
                         </div>
                         <div class="col-6 col-sm-4">
                         <p class="fs-5">Halo saya Darell Mona seorang mahasiswa yang sedang menjalani pendidikan di Universitas Klabat jurusan Informatika. Ini adalah tahun kedua saya sebagai mahasiswa.</p>
