@@ -7,22 +7,22 @@ const Hobby = () =>
     return (
         <section id="hoby">
             <div class="container">
-                <div class="row">
+                <div class="row" style={{marginBottom: "50px"}}>
                 <div class="col text-center">
                     <h2>My hobies are</h2>
                 </div>
                 </div>
 
-                <div class="row justify-content-sm-between">
-                <div class="col-3">
+                <div class="row justify-content-sm-between shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="col-3 border border-primary">
                     <img src={montainClimb} width="200px" height="200px" class="rounded-circle img-thumbnail" alt='Mountain pict'></img>
                     <p><b>Climbing mountains</b> will teach you patience, persistence and gratitude. Climbing a mountain is the furthest thing from easy. Long stretches of constant vertical climbing can be the most exhausting and hardest thing you do. Not only the physical difficulties but also the mental difficulties will also test you.</p>
                 </div>
-                <div class="col-3">
+                <div class="col-3 border border-success">
                     <img src={guitaring} alt='Playing guitar' width="200px" height="200px" class="rounded-circle img-thumbnail"></img>
                     <p><b>Playing guitar</b> (or any instrument!) has a calming effect on the mind and body, and is linked to lower blood pressure, decreased heart rate, a lower rate of anxiety and depression, and overall reduced stress levels. It is the perfect stress buster!</p>
                 </div>
-                <div class="col-3">
+                <div class="col-3 border border-danger">
                     <img src={coding} alt="Coding" width="200px" height="200px" class="rounded-circle img-thumbnail"></img>
                     <p><b>Coding</b> encourages us to use logic and algorithms to create a program. When facing a new challenge, you need to follow a logical approach to solve the issue. Therefore, this is an exercise for your brain to train up your logical ability.</p>
                 </div>
