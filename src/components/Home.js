@@ -5,7 +5,7 @@ const Home = () =>
             <div class="container">
                 <div class="row">
                 <div class="col-4 justify-content-start">
-                    {/* <h1 class="display-1" style="font-family: 'Lavalette', sans-serif;">Welcome to my personal Profile</h1> */}
+                    <h1 class="display-1" style={{fontFamily: 'Lavalette'}}>Welcome to my personal Profile</h1>
                     <p class="fs-5">Ini adalah website yang dibuat oleh Mona, Darell Christopher mahasiswa dari Fakultas Ilmu Komputer untuk memenuhi tugas final Web Design.</p>
                 </div>
                 </div>

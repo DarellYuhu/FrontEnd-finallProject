@@ -1,12 +1,11 @@
 const Contact = () =>
 {
     return (
-        <section id="contact" >
-            {/* style="background-color: #e2edff;" */}
+        <section id="contact" style={{backgroundColor:" #e2edff"}}>
         <div class="container">
             <div class="row mb-5">
             <div class="col text-center">
-                <h2>Contact Us</h2>
+                <h2>Contact Me</h2>
             </div>
             </div>
 
@@ -23,10 +22,10 @@ const Contact = () =>
                     <input type="email" class="form-control" id="email" aria-describedby="email" />
                 </div>
                 <div class="mb-3">
-                    <label for="pesan" class="form-label">Example textarea</label>
+                    <label for="pesan" class="form-label">Leave a message</label>
                     <textarea class="form-control" id="pesan" rows="3"></textarea>
                 </div>
-                <button type="button" class="btn btn-outline-success">Kirim</button>
+                <button type="button" class="btn btn-outline-success">Send</button>
                 </form>
             </div>
 

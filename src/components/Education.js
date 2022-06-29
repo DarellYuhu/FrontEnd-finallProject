@@ -1,8 +1,7 @@
 const Education = () =>
 {
     return (
-        <section id="educationSkills" >
-            {/* style="background-color: #e2edff;" */}
+        <section id="educationSkills" style={{backgroundColor:" #e2edff"}}>
         <div class="container">
             <div class="row mb-3">
             <div class="col text-center">
@@ -19,8 +18,7 @@ const Education = () =>
 
             <div class="row justify-content-evenly">
             <div class="col-md-3 mb-3">
-                {/* style="width: 18rem;" */}
-                <div class="card" >
+                <div class="card" style={{width: "288px;"}}>
                 <img src="vladislav-vasilev-9qbPV3dvna0-unsplash.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Elementry</h5>
@@ -29,8 +27,7 @@ const Education = () =>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
-                {/* style="width: 18rem;" */}
-                <div class="card">
+                <div class="card" style={{width: "288px;"}}>
                 <img src="vladislav-vasilev-9qbPV3dvna0-unsplash.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Midle School</h5>
@@ -39,8 +36,7 @@ const Education = () =>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
-                {/* style="width: 18rem;" */}
-                <div class="card">
+                <div class="card" style={{width: "288px;"}}>
                 <img src="vladislav-vasilev-9qbPV3dvna0-unsplash.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">High School</h5>
@@ -50,26 +46,26 @@ const Education = () =>
             </div>
             </div>
 
-            {/* <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center mb-5">
             <div class="col-md-7 shadow-sm bg-light p-3 m-3">
                 <em>HTML</em>
                 <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width: "70%"}}>70%</div>
                 </div>
                 <em>JavaScript</em>
                 <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width: "60%"}}>60%</div>
                 </div>
                 <em>CSS</em>
                 <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}>80%</div>
                 </div>
                 <em>Bootstrap</em>
                 <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width: "70%"}}>70%</div>
                 </div>
             </div>
-            </div> */}
+            </div>
             {/* <!-- Education and Skills 1 End--> */}
 
         </div>

@@ -14,7 +14,7 @@ export default function Navbar()
                         <a class="nav-link btn btn-outline-success" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
+                        <a class="nav-link" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#educationSkills">Education & Skills</a>
@@ -23,7 +23,7 @@ export default function Navbar()
                         <a class="nav-link" href="#hoby">Hoby</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Me</a>
                     </li>
                     </ul>
                 </div>
