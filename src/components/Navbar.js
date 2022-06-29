@@ -4,7 +4,7 @@ export default function Navbar()
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-lg fixed-top pt-0 pb-0">
                 <div class="container">
-                {/* <a class="navbar-brand fs-2" href="#home" style="font-family: 'American Kestrel', sans-serif">Navbar</a> */}
+                <a class="navbar-brand fs-2" href="#home" style={{fontFamily: 'American Kestrel'}}>Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
